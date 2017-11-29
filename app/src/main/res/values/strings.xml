@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">myResume</string>
+    <string name="section_education">Education</string>
+    <string name="section_experiences">Experiences</string>
+    <string name="section_projects">Projects</string>
+
+
+    <string name="company_hint">Company</string>
+    <string name="position_hint">Position</string>
+    <string name="start_hint">Start Date</string>
+    <string name="end_hint">End Date</string>
+    <string name="detail_hint">Details</string>
+
+    <string name="btn_submit">Submit</string>
+
+    <string name="school_hint">School</string>
+    <string name="course_hint">Courses</string>
+    <string name="project_hint">Project Name</string>
+    <string name="project_detail_hint">Project Details</string>
+
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="12dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Baizai Entertainment (07/2015 ~ 10/2015)"
+            android:textSize="16dp" />
+
+        <ImageButton
+            android:id="@+id/edit_experience_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_mode_edit_black_24px" />
+        <ImageButton
+            android:id="@+id/delete_experience_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_delete_black_24px" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/experience_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- implementing various game events\n- developing game scripts and GUI system\n- developed shaders for edge detection"
+        android:textSize="16dp"
+        android:layout_marginBottom="12dp"/>
+
+
+</LinearLayout>
